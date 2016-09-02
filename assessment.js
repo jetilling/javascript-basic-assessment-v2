@@ -70,7 +70,7 @@ var firstJedi = jedi.shift('Yoda');
 jedi.unshift('Mario')
 // remove 'Obi-Wan' from the array and store him in a var called secondJedi
 var secondJedi = jedi.splice(2,1)
-secondJedi = secondJedi.toString();
+secondJedi = secondJedi.toString(); 
 // leave 'Mace Windu' in the array but put a copy of him on a var called thirdJedi
 var thirdJedi = jedi.slice(1,2)
 thirdJedi = thirdJedi.toString();
